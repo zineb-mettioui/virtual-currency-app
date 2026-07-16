@@ -35,6 +35,7 @@
                 <div class="form-group">
                     <input type="submit" value="Inloggen" class="button button-primary">
                 </div>
+                <p class="auth-switch">Nog geen account? <a href="register.php">Registreer hier</a></p>
 
             </form>
         </div>

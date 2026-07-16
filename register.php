@@ -44,6 +44,8 @@
                     <input type="submit" value="Registreren" class="button button-primary">
                 </div>
 
+                <p class="auth-switch">Al een account? <a href="login.php">Log in</a></p>
+
             </form>
         </div>
 

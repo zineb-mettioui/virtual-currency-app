@@ -83,3 +83,18 @@ body {
     
 }
 
+
+/* Link tussen login en register */
+.auth-switch {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #8a90a6;
+}
+
+.auth-switch a {
+    color: #000;
+    font-weight: 200;
+    
+}
+
