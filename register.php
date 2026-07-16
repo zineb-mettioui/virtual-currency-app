@@ -9,17 +9,17 @@
     <title>Registreren - Virtual Currency</title>
 
     <!-- Zelfde stylesheet als login: opmaak hergebruiken -->
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="auth.css">
 </head>
 <body>
     <!-- Phone-kader (de mockup) -->
     <div class="phone">
 
-        <!-- Het registratiebox -->
-        <div class="login-box">
+        <!-- Het registratiebox (auth = authenticatie) -->
+        <div class="auth-box">
             <form action="" method="post">
 
-                <h2 class="login-title">Registreren</h2>
+                <h2 class="auth-title">Registreren</h2>
 
                 <!-- Veld: naam -->
                 <div class="form-group">
