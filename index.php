@@ -1,5 +1,12 @@
 <?php 
 
+session_start();
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: login.php");
+    exit;
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -10,6 +17,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Phone-kader (de mockup) -->
     <div class="phone"></div>
 </body>
 </html>
